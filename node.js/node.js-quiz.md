@@ -785,3 +785,13 @@ Q90. Which Node.js module provides an interface for interacting with the file sy
 - [ ] os
 
 Explanation: The fs module in Node.js provides an interface for interacting with the file system. It allows you to perform various file-related operations, including reading and writing files, creating directories, and more.
+
+Q91. To start a Node.js application with debugging support and listen on a specific port, which command is used?
+
+- [ ] node inspect <filename> --port <port>
+- [x] node --inspect=<port> <filename>
+- [ ] node <filename> --inspect=<port>
+- [ ] node --debug <filename> --port <port>
+
+Explanation: To start a Node.js application with debugging support and listen on a specific port, you can use the --inspect flag followed by the port number you want to use, and then specify the filename of your Node.js application.
+
